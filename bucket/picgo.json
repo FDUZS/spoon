@@ -1,13 +1,19 @@
 {
     "homepage": "https://github.com/Molunerfinn/PicGo",
-    "description": "a tool of image hosting client",
+    "description": "A simple & beautiful tool for pictures uploading built by electron-vue.",
+    "version": "2.2.1",
     "license": {
         "identifier": "996ICU",
-        "url": "https://github.com/996icu/996.ICU/blob/master/LICENSE"
+        "url": "https://github.com/Molunerfinn/PicGo/blob/dev/LICENSE"
     },
-    "version": "2.2.1",
-    "url": "https://github.com/Molunerfinn/PicGo/releases/download/v2.2.1/PicGo-Setup-2.2.1.exe",
-    "hash": "794e737a30409e8c80deabd64de179e8dd402b287789fa9e65aaa3b02c726a8c",
+    "url": "https://github.com/Molunerfinn/PicGo/releases/download/v2.2.1/picgo-setup-2.2.1.exe#/dl.7z",
+    "hash": "sha512:79c44e8f9e9e27c4efff2b73ae324df78bcc3db26cf951d1f2ba77a89d26887d6ca3cee2f5195f12d7fa246aa240a3e5b45ac33fc5e337fb0fe549fd2099b7e9",
+    "installer": {
+        "script": [
+            "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+            "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
+        ]
+    },
     "bin": "PicGo.exe",
     "shortcuts": [
         [
@@ -15,15 +21,13 @@
             "PicGo"
         ]
     ],
-    "pre_install": [
-        "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath \"$dir\\_tmp\"",
-        "Get-ChildItem -Path \"$dir\\_tmp\" -Depth \"2\" -Include \"*.7z\" | Move-Item -Destination \"$dir\\_tmp\"",
-        "Expand-7zipArchive -Path \"$dir\\_tmp\\app-64.7z\" -DestinationPath \"$dir\"",
-        "Remove-Item -Recurse \"$dir\\_tmp\", \"$dir\\$fname\""
-    ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Molunerfinn/PicGo/releases/download/v$version/picgo-setup-$version.exe"
-    },
-    "depends": "7zip"
+        "url": "https://github.com/Molunerfinn/PicGo/releases/download/v$version/picgo-setup-$version.exe#/dl.7z",
+        "hash": {
+            "url": "https://github.com/Molunerfinn/PicGo/releases/download/v$version/latest.yml",
+            "mode": "extract",
+            "regex": "(?sm)exe.*sha512: $base64"
+        }
+    }
 }
