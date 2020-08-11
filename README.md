@@ -1,4 +1,6 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/87cbd9yt01v2u0y0/branch/master?svg=true)](https://ci.appveyor.com/project/FDUZS/scoop/branch/master)
+![AppVeyor branch](https://img.shields.io/appveyor/build/FDUZS/spoon/master?logo=appveyor&style=flat-square)
+[![GitHub license](https://img.shields.io/github/license/FDUZS/spoon?style=flat-square)](https://github.com/FDUZS/spoon/blob/master/LICENSE)
+![GitHub repo size](https://img.shields.io/github/repo-size/FDUZS/spoon?style=flat-square)
 
 # spoon bucket for Scoop
 
@@ -15,3 +17,14 @@ About Scoop:
 ```powershell
 scoop bucket add spoon https://github.com/FDUZS/spoon.git
 ```
+
+## Featured Apps
+
+| Manifest | Description |
+|----------|-------------|
+| clash | A rule-based tunnel in Go |
+| clash-for-windows | A Windows GUI based on Clash |
+| clashweb | Another clash gui for windows with integrated API and ultra-small memory consumption |
+| mubu | Mubu - Mind mapping tool |
+| Notion | Collaborative note taking |
+| picgo | A simple & beautiful tool for pictures uploading built by electron-vue |
