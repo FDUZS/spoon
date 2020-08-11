@@ -1,6 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/87cbd9yt01v2u0y0/branch/master?svg=true)](https://ci.appveyor.com/project/FDUZS/scoop/branch/master)
 
-# scoop bucket for Scoop
+# spoon bucket for Scoop
 
 A [Scoop](https://github.com/lukesampson/scoop) [bucket](https://github.com/lukesampson/scoop/wiki/Buckets) for personal use based on this [template](https://github.com/Ash258/GenericBucket).
 
@@ -13,5 +13,5 @@ About Scoop:
 ## Install
 
 ```powershell
-scoop bucket add scoop https://github.com/FDUZS/scoop.git
+scoop bucket add spoon https://github.com/FDUZS/spoon.git
 ```
