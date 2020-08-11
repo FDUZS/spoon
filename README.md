@@ -6,7 +6,7 @@
 
 A [Scoop](https://github.com/lukesampson/scoop) [bucket](https://github.com/lukesampson/scoop/wiki/Buckets) for personal use based on this [template](https://github.com/Ash258/GenericBucket).
 
-About Scoop:
+More about Scoop:
 
 - [Scoop 不完全上手指南](https://www.iamzs.top/archives/scoop-guidebook.html)
 - [「一行代码」搞定软件安装卸载，用 Scoop 管理你的 Windows 软件](https://sspai.com/post/52496)
