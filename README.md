@@ -27,7 +27,7 @@ scoop install spoon/<app>
 | clash-for-windows | A Windows GUI based on Clash |
 | clashweb | Another clash gui for windows with integrated API and ultra-small memory consumption |
 | mubu | Mubu - Mind mapping tool |
-| Notion | Collaborative note taking |
+| notion | Collaborative note taking |
 | picgo | A simple & beautiful tool for pictures uploading built by electron-vue |
 | tcping | Eli Fulkerson's TCP ping tool, ping over a tcp connection |
 | trash | Move files and folders to the Windows recycle bin |
