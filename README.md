@@ -4,7 +4,7 @@
 
 # 🥄 Spoon bucket for Scoop
 
-A [Scoop](https://github.com/lukesampson/scoop) [bucket](https://github.com/lukesampson/scoop/wiki/Buckets) for personal use based on this [template](https://github.com/Ash258/GenericBucket).
+A [Scoop](https://github.com/lukesampson/scoop) [bucket](https://github.com/lukesampson/scoop/wiki/Buckets) for personal use based on this [template](https://github.com/Ash258/GenericBucket) and [dorado](https://github.com/chawyehsu/dorado) bucket.
 
 More about Scoop:
 
@@ -29,3 +29,5 @@ scoop install spoon/<app>
 | mubu | Mubu - Mind mapping tool |
 | Notion | Collaborative note taking |
 | picgo | A simple & beautiful tool for pictures uploading built by electron-vue |
+| tcping | Eli Fulkerson's TCP ping tool, ping over a tcp connection |
+| trash | Move files and folders to the Windows recycle bin |
