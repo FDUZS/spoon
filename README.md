@@ -2,7 +2,7 @@
 [![GitHub license](https://img.shields.io/github/license/FDUZS/spoon?style=flat-square)](https://github.com/FDUZS/spoon/blob/master/LICENSE)
 ![GitHub repo size](https://img.shields.io/github/repo-size/FDUZS/spoon?style=flat-square)
 
-# 🥄 spoon bucket for Scoop
+# 🥄 Spoon bucket for Scoop
 
 A [Scoop](https://github.com/lukesampson/scoop) [bucket](https://github.com/lukesampson/scoop/wiki/Buckets) for personal use based on this [template](https://github.com/Ash258/GenericBucket).
 
