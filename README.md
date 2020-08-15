@@ -12,6 +12,10 @@ More about Scoop:
 - [「一行代码」搞定软件安装卸载，用 Scoop 管理你的 Windows 软件](https://sspai.com/post/52496)
 - [再谈谈 Scoop 这个 Windows 下的软件包管理器](https://www.h404bi.com/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again)
 
+## Bucket Filter
+
+> Only Apps not available in `scoop bucket known` buckets.
+
 ## Usage
 
 ```powershell
