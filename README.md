@@ -14,7 +14,7 @@ More about Scoop:
 
 ## Bucket Filter
 
-> Only Apps not available in `scoop bucket known` buckets.
+> Only Apps *Not* available in `scoop bucket known` buckets.
 
 ## Usage
 
