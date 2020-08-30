@@ -6,7 +6,7 @@
 
 A [Scoop](https://github.com/lukesampson/scoop) [bucket](https://github.com/lukesampson/scoop/wiki/Buckets) for personal use based on this [template](https://github.com/Ash258/GenericBucket) and [dorado](https://github.com/chawyehsu/dorado) bucket.
 
-More about Scoop:
+More on Scoop:
 
 - [Scoop 不完全上手指南](https://www.iamzs.top/archives/scoop-guidebook.html)
 - [「一行代码」搞定软件安装卸载，用 Scoop 管理你的 Windows 软件](https://sspai.com/post/52496)
@@ -14,7 +14,7 @@ More about Scoop:
 
 ## Bucket Filter
 
-> Only Apps *Not* available in `scoop bucket known` buckets.
+Only Apps *Not* available in `scoop bucket known` buckets.
 
 ## Usage
 
