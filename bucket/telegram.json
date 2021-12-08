@@ -1,10 +1,10 @@
 {
-    "version": "3.2.5",
+    "version": "3.3.0",
     "description": "A messaging app with a focus on speed and security",
     "homepage": "https://telegram.org",
     "license": "GPL-3.0-only",
-    "url": "https://updates.tdesktop.com/tsetup/tportable.3.2.5.zip",
-    "hash": "C630498F317C98606EA9AEEF70D4C9059491A9FBC7EC60C3FA5316C8505F8738",
+    "url": "https://updates.tdesktop.com/tsetup/tportable.3.3.0.zip",
+    "hash": "96cbaeaebcda7da76df9fbb476d04fc03bd71b0bae870f95638668e3ae81dbdf",
     "extract_dir": "Telegram",
     "pre_install": "Set-Content \"$dir\\telegram.cmd\" '@start \"Telegram\" /D \"%~dp0\" \"%~dp0Telegram.exe\" %*' -Encoding Ascii",
     "bin": "telegram.cmd",
