@@ -23,15 +23,6 @@ scoop bucket add spoon https://github.com/FDUZS/spoon.git
 scoop install spoon/<app>
 ```
 
-## Featured Apps
+## Suggestion
 
-| Manifest | Description |
-|----------|-------------|
-| clash | A rule-based tunnel in Go |
-| clash-for-windows | A Windows GUI based on Clash |
-| clashweb | Another clash gui for windows with integrated API and ultra-small memory consumption |
-| mubu | Mubu - Mind mapping tool |
-| notion | Collaborative note taking |
-| picgo | A simple & beautiful tool for pictures uploading built by electron-vue |
-| tcping | Eli Fulkerson's TCP ping tool, ping over a tcp connection |
-| trash | Move files and folders to the Windows recycle bin |
+Forget about maintaining your own bucket, use the `Extra` bucket instead and contribute to it. Moreover, [winget](https://winget.run/) may be a better option.
