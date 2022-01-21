@@ -25,4 +25,6 @@ scoop install spoon/<app>
 
 ## Suggestion
 
-Forget about maintaining your own bucket, use the `Extra` bucket instead and contribute to it. Moreover, [winget](https://winget.run/) may be a better option.
+Forget about maintaining your own bucket, use the `Extra` bucket instead and contribute to it.
+
+Moreover, [winget](https://winget.run/) may be a better option at the time of writing.
