@@ -1,4 +1,4 @@
-![AppVeyor branch](https://img.shields.io/appveyor/build/FDUZS/spoon/master?logo=appveyor&style=flat-square)
+[![Build status](https://ci.appveyor.com/api/projects/status/6f2p9phb7jwsy0jd/branch/main?svg=true)](https://ci.appveyor.com/project/FDUZS/spoon/branch/main)
 [![GitHub license](https://img.shields.io/github/license/FDUZS/spoon?style=flat-square)](https://github.com/FDUZS/spoon/blob/master/LICENSE)
 ![GitHub repo size](https://img.shields.io/github/repo-size/FDUZS/spoon?style=flat-square)
 
